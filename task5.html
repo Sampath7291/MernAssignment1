@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            padding-right: 50px;
+            padding-bottom: 10px;
+        }
+        table,td,th{
+            border: 1px solid black;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <h1 style="color: blue; white-space:pre">                Registration Form</h1>
+    <form>
+        <table>
+            
+            <tr>
+                <th>First Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <th>Re-enter Password</th>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    <input type="radio" name="gen" id=""/>Male
+                    <br>
+                    <input type="radio" name="gen" id=""/>Female
+                </td>
+            </tr>
+            <tr>
+                <th>Age:</th>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td><input type="text"></td>  
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td><select name="" id="">
+                    <option value="">Choose your country</option>
+                    <option value="">India</option>
+                    <option value="">US</option>
+                    <option value="">UK</option>
+                    <option value="">Pakistan</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Languages Known</th>
+                <td>
+                    <input type="checkbox" id="lang" name="lang" value="English">
+                    <label for="lang">English</label>
+                    <input type="checkbox" id="lang" name="lang" value="Kannada">
+                    <label for="lang">Kannada</label>
+                    <input type="checkbox" id="lang" name="lang" value="Hindi">
+                    <label for="lang">Hindi</label>
+                    <input type="checkbox" id="lang" name="lang" value="Telugu">
+                    <label for="lang">Telugu</label>
+                </td>
+            </tr>
+            <tr >
+                <td colspan="2"><input type="checkbox" id="conf" name="conf" value="English">
+                    <label for="conf">Hereby I declare all the given details are true</label></td>
+            </tr>
+            <tr >
+                <td colspan="2">
+                    <p style="text-align:right;">Log in to <a href="https://www.ethnus.com">Ethnus</a> website</p>
+                </td>
+                
+            </tr>
+        </table>
+
+        <p style="white-space: pre;">                                                 <button>Register</button></p>
+                  
+    </form>
+</body>
+</html>
